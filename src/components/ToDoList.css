@@ -1,0 +1,81 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    background-color: cadetblue;
+}
+
+.input_container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    & .inputLabel {
+        font-weight: bold;
+    }
+
+    & .input {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid gray;
+    }
+
+    & button {
+        background-color: blue;
+        padding: 8px 16px;
+        border: 0;
+        border-radius: 4px;
+        color: aliceblue;
+        &:hover {
+            background-color: rgb(92, 92, 240);
+        }
+    }
+}
+
+.todo_container {
+    padding: 0 64px;
+}
+
+.deleteBtn {
+    background-color: red;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    &:hover {
+        background-color: rgb(244, 94, 94);
+    }
+}
+
+.completeBtn {
+    background-color: green;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    &:hover {
+        background-color: rgb(113, 224, 113);
+    }
+}
+
+.clicado {
+    background-color: rgb(0, 179, 255);
+}
+
+.itemLista {
+    padding: 8px 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    border: 1px solid gray;
+    align-items: center;
+    & div {
+        display: flex;
+        gap: 4px;
+    }
+    & p {
+        margin: 0;
+    }
+}
